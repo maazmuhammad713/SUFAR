@@ -1,0 +1,23 @@
+.button {
+  background-color: antiquewhite;
+  color: aquamarine;
+  position: fixed;
+  bottom: 15px;
+  right: 9px;
+  z-index: 9999;
+}
+.button i {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.gpt {
+  position: "absolute";
+  height: 850px;
+  width: 100%;
+}
+@media only screen and (max-width: 1300px) {
+  .gpt {
+    height: 700px;
+  }
+}
